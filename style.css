@@ -310,8 +310,14 @@ body {
 
     .navbar-toggel {
         display: block;
+        margin: 10px;
     }
     .grid-container{
         grid-template-columns: 1fr;
+        
+    }
+    .learner-count-container{
+        border-radius: 5px;
+        margin-top: 10px;
     }
 }
