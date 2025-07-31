@@ -243,28 +243,75 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+
 .resourse-log-4 svg {
     background-color: #f9fafb47;
     padding: 10px;
     border-radius: 10px;
 }
+
 .resourse-log-5 svg {
     background-color: #f9fafb47;
     padding: 10px;
     border-radius: 10px;
 }
+
 .resourse-log-6 svg {
     background-color: #f9fafb47;
     padding: 10px;
     border-radius: 10px;
 }
+
 .resourse-log-2 svg {
     background-color: #f9fafb47;
     padding: 10px;
     border-radius: 10px;
 }
+
 .resourse-log-3 svg {
     background-color: #f9fafb47;
     padding: 10px;
     border-radius: 10px;
+}
+
+.side-navbar {
+    background-color: #1e1f22;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 10px;
+    z-index: 1;
+}
+
+.side-navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.navbar-toggel {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .side-navbar {
+        display: block;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .learners-container {
+        display: none;
+    }
+
+    .navbar-toggel {
+        display: block;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
 }
