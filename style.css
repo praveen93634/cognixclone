@@ -296,33 +296,16 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    .side-navbar {
-        display: block;
-    }
-
-    .nav-bar {
-        display: none;
-    }
-
-    .learner {
-        display: none;
-    }
-
-    .navbar-toggel {
-        display: block;
-        margin: 10px;
-    }
-    .grid-container{
-        grid-template-columns: 1fr;
-        width: auto;
-        margin: 20px;
-    }
-    .learner-count-container{
-        border-radius: 5px;
-        margin-top: 10px;
-    }
-    .resource-to-learner h1{
-       position: relative;
-        bottom: 30px;
-    }
+   .learner{
+    display: none;
+   }
+   .grid-container{
+     grid-template-columns: 1fr;
+   }
+   .nav-container{
+    display: none;
+   }
+   .navbar-toggel {
+    display: block;
+}
 }
